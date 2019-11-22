@@ -6,8 +6,8 @@
    Review Assignment
 
    Columns Style Sheet
-   Author: 
-   Date:   
+   Author: Marcus Tinney
+   Date: 11/20/2019  
 
    Filename:         dlr_columns2.css
 
@@ -17,4 +17,12 @@
 
 /* Column Styles */
 
+@media only screen and (min-width: 641px) {
 
+   p{
+      column-count: 3;
+      column-gap: 20px;
+      border: black solid 1px;
+   }
+
+}
